@@ -26,7 +26,7 @@ int main()
 
 
     Matrix profile=Matrix("2D_profile.txt");  // data profile
-    Matrix kernel=Matrix("kernel.txt"); // Kernel
+    Matrix kernel=Matrix("kernel.txt"); // Kernel (You need to define kernel or load it)
     Matrix True_Model=Matrix("True_Model.txt"); //True Model
 
     int num_obs = profile.getRows();

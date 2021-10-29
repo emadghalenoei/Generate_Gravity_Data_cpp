@@ -1,12 +1,9 @@
 //
 //  matrix.h
 //
-//  Created by Furkanicus on 12/04/15.
-//  Copyright (c) 2015 Furkan. All rights reserved.
-// Learnrope.com
+//  Created by Emad Ghalenoei in 2020
+//  Copyright (c) 2020 Emad Ghalenoei. All rights reserved.
 
-#ifndef __EE_242_Project_2__matrix__
-#define __EE_242_Project_2__matrix__
 
 #include <stdio.h>
 #include <fstream> // for file access
@@ -478,7 +475,7 @@ void Matrix::print_element(int i, int j) const
     cout << "Matrix[" <<i<<"]"<<"["<<j<<"]: "<< m_matrix[i-1][j-1] << endl;
 }
 
-// linspace is similar to the colon operator, “:”, but gives direct control over the number of points and always includes the endpoints
+// linspace is similar to the colon operator, Â“:Â”, but gives direct control over the number of points and always includes the endpoints
 
 // Generate linearly spaced vector
 Matrix Matrix::linespace(double x1, double xn, int n)
@@ -492,7 +489,7 @@ Matrix Matrix::linespace(double x1, double xn, int n)
     return A;
 }
 
-// linspace is similar to the colon operator, “:”, but gives direct control over the number of points and always includes the endpoints
+// linspace is similar to the colon operator, Â“:Â”, but gives direct control over the number of points and always includes the endpoints
 Matrix Matrix::colon(const double &x1, const double &dx, const double &xn)
 {
 
